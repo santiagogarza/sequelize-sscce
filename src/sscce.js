@@ -31,7 +31,7 @@ module.exports = async function() {
       },
     });
 
-    const HangModel = sequelize.define('user', {
+    const HangModel = sequelize.define('hang', {
       id: {
         type: Sequelize.INTEGER(10).UNSIGNED,
         primaryKey: true,
